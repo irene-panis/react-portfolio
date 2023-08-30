@@ -1,6 +1,6 @@
 function Navigation(props) {
   return ( 
-    <ul className="nav-links">
+    <ul className="flex gap-4">
       <li>
         <a 
           href="#about"
@@ -18,10 +18,20 @@ function Navigation(props) {
         </a>
       </li>
       <li>
-        <a href="#contact">Contact</a>
+        <a 
+          href="#contact"
+          onClick={() => props.handlePageChange('Contact')}
+        >
+          Contact
+        </a>
       </li>
       <li>
-        <a href="#resume">Resume</a>
+        <a 
+          href="#resume"
+          onClick={() => props.handlePageChange('Resume')}
+        >
+          Resume
+        </a>
       </li>
     </ul>
   );

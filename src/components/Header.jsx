@@ -2,8 +2,7 @@ import Navigation from './Navigation';
 
 function Header(props) {
   return (
-    <header>
-      <h1>irene panis</h1>
+    <header className="flex justify-end py-5 px-10">
       <Navigation 
         currentPage={props.currentPage}
         handlePageChange={props.handlePageChange}
