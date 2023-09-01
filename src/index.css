@@ -22,3 +22,7 @@
     opacity: 100;
   }
 }
+
+.error {
+  color: rgb(129, 16, 16);
+}
