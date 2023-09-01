@@ -6,8 +6,8 @@ export default function ProjectCard(props) {
       <p className='project-desc'>{props.description}</p>
       <span className="italic">{props.stack}</span>
       <div className='flex justify-evenly font-bold'>
-        <a href={props.repo} className="hover:bg-black hover:text-white">GitHub</a>
-        <a href={props.live} className="hover:bg-black hover:text-white">Live</a>
+        <a href={props.repo} target="_blank" className="hover:bg-black hover:text-white" rel="noreferrer">GitHub</a>
+        <a href={props.live} target="_blank" rel="noreferrer" className="hover:bg-black hover:text-white">Live</a>
       </div>
     </div>
   );
