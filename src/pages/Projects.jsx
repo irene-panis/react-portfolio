@@ -12,7 +12,7 @@ export default function Projects() {
     },
     {
       title: 'Pokedex',
-      description: 'A simple application for creating Pokemon teams and viewing Pokemon information.',
+      description: 'A simple application for creating Pokemon teams and viewing Pokemon information. Built with three other team members.',
       stack: 'HTML, Tailwind CSS, JavaScript, jQuery, RESTful APIs',
       src: '/pokedex.jpg',
       repo: 'https://github.com/irene-panis/pokemon-index',
