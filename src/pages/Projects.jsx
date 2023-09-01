@@ -6,7 +6,7 @@ export default function Projects() {
       title: 'Dagobah Depot',
       description: 'A Star Wars-themed community marketplace built with two other team members. Full-stack application.',
       stack: 'Sequelize ORM, Node.js, Express.js, Handlebars.js, Stripe.js',
-      src: '',
+      src: '/dagobah.jpg',
       repo: 'https://github.com/irene-panis/dagobah-depot',
       live: 'https://dagobah-depot-34081fe1df5e.herokuapp.com/'
     },
@@ -14,7 +14,7 @@ export default function Projects() {
       title: 'Pokedex',
       description: 'A simple application for creating Pokemon teams and viewing Pokemon information.',
       stack: 'HTML, Tailwind CSS, JavaScript, jQuery, RESTful APIs',
-      src: '',
+      src: '/pokedex.jpg',
       repo: 'https://github.com/irene-panis/pokemon-index',
       live: 'https://linuscth.github.io/pokemon-index/'
     },
@@ -22,15 +22,15 @@ export default function Projects() {
       title: 'Ensemble Blog',
       description: 'Simple blog that allows users to sign up or log in and create posts and comments. Full-stack application.',
       stack: 'Bulma CSS, Node.js, Express.js, Sequelize ORM, Handlebars.js',
-      src: '',
+      src: 'ensemble.png',
       repo: 'https://github.com/irene-panis/ensemble-blog',
       live: 'https://ensemble-blog-bfd105093377.herokuapp.com/'
     },
     {
       title: 'The Weather App',
-      description: 'A small weather app that displays current weather info and five-day forecast for any given city using Weather API.',
-      stack: 'HTML, Bootstrap CSS, JavaScript, jQuery, RESTful APIs, Day.js',
-      src: '',
+      description: 'A weather app that displays current weather info and five-day forecast for any given city using Weather API.',
+      stack: 'HTML, Bootstrap CSS, JavaScript, jQuery, RESTful APIs',
+      src: 'weatherapp.jpg',
       repo: 'https://github.com/irene-panis/weather-app',
       live: 'https://irene-panis.github.io/weather-app/'
     },
@@ -38,7 +38,7 @@ export default function Projects() {
       title: 'JavaScript Quiz',
       description: 'Quiz app that asks JavaScript questions and allows users to save their scores in local storage.',
       stack: 'HTML, CSS, JavaScript',
-      src: '',
+      src: 'codingquiz.jpg',
       repo: 'https://github.com/irene-panis/javascript-quiz',
       live: 'https://irene-panis.github.io/javascript-quiz/'
     },
@@ -46,7 +46,7 @@ export default function Projects() {
       title: 'Portfolio',
       description: 'An old version of my portfolio created in April 2023.',
       stack: 'HTML, CSS',
-      src: '',
+      src: 'preview.jpg',
       repo: 'https://github.com/irene-panis/portfolio',
       live: 'https://irene-panis.github.io/portfolio/'
     },

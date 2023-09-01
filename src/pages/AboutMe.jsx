@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 export default function AboutMe() {
   return (
-    <section className='about flex flex-col justify-center align-center text-center mx-96 h-full'>
+    <section className='about flex flex-col justify-center align-center text-center mx-96 min-h-full'>
       <h2 className="font-alata text-7xl">Hi, I'm Irene.</h2>
       <h3 className="font-montserrat text-2xl">
           Full-Stack Developer. Software Engineer. Gamer.
