@@ -53,7 +53,7 @@ export default function Projects() {
   ];
 
   return (
-    <div className="flex gap-8 flex-wrap justify-center align-center">
+    <div className="projects flex gap-8 flex-wrap justify-center align-center">
       {projects.map((project, index) => (
         <ProjectCard
           key={index}

@@ -7,3 +7,18 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Alata&family=Montserrat:wght@100;400&display=swap');
 
+.about,
+.projects,
+.contact,
+.resume {
+  animation: fade-in 2s;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100;
+  }
+}
