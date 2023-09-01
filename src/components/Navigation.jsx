@@ -1,6 +1,6 @@
 function Navigation(props) {
   return ( 
-    <ul className="flex gap-4">
+    <ul className="flex gap-20 uppercase">
       <li>
         <a 
           href="#about"
