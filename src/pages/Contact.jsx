@@ -71,7 +71,7 @@ export default function Contact() {
 
 
   return (
-    <div className="contact flex flex-col gap-5 w-1/3">
+    <div className="contact flex flex-col gap-5 lg:w-1/3 w-5/6">
       <h2 className="text-2xl">Let's chat!</h2>
       <form id="contact-form" className="flex flex-col gap-5" action="process.php" method="post" onSubmit={handleSubmit}>
 

@@ -1,6 +1,6 @@
 export default function ProjectCard(props) {
   return (
-    <div className='text-black bg-white w-1/4 flex flex-col text-center gap-3 p-5 justify-between rounded drop-shadow-lg'>
+    <div className='text-black bg-white lg:w-1/4 sm:w-3/4 flex flex-col text-center gap-3 p-5 justify-between rounded drop-shadow-lg'>
       <img src={props.src}/>
       <span className='uppercase font-bold text-xl'>{props.title}</span>
       <p className='project-desc'>{props.description}</p>

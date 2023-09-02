@@ -44,7 +44,7 @@ export default function Resume() {
   return (
     <div className="resume flex flex-col w-3/4 align-center gap-4">
       <span className="text-center">Download my resume <a href="Irene Panis Developer Resume.pdf" target="_blank" className="underline hover:bg-black hover:text-white">here</a></span>
-      <div className="flex gap-3 w-full justify-center">
+      <div className="flex gap-3 w-full justify-center flex-wrap">
       {cards.map((card, index) => (
         <Proficiency
           key={index}
