@@ -1,41 +1,41 @@
-function Navigation(props) {
+import { Link, useLocation } from 'react-router-dom';
+
+function Navigation() {
+  const currentPage = useLocation().pathname;
+
   return ( 
     <ul className="flex flex-wrap gap-20 uppercase">
       <li>
-        <a 
-          href="#about"
-          onClick={() => props.handlePageChange('AboutMe')}
-          className={`hover:underline ${props.currentPage === 'AboutMe' ? 'bg-white text-black py-1 px-2 rounded' : 'bg-none text-white py-1 px-2 rounded'}`}
+        <Link 
+          to="/"
+          className={`hover:underline ${currentPage === 'AboutMe' ? 'bg-white text-black py-1 px-2 rounded' : 'bg-none text-white py-1 px-2 rounded'}`}
         >
           About Me
-        </a>
+        </Link>
       </li>
       <li>
-        <a 
-          href="#projects"
-          onClick={() => props.handlePageChange('Projects')}
-          className={`hover:underline ${props.currentPage === 'Projects' ? 'bg-white text-black py-1 px-2 rounded' : 'bg-none text-white py-1 px-2 rounded'}`}
+        <Link 
+          to="/Projects"
+          className={`hover:underline ${currentPage === 'Projects' ? 'bg-white text-black py-1 px-2 rounded' : 'bg-none text-white py-1 px-2 rounded'}`}
         >
           Projects
-        </a>
+        </Link>
       </li>
       <li>
-        <a 
-          href="#contact"
-          onClick={() => props.handlePageChange('Contact')}
-          className={`hover:underline ${props.currentPage === 'Contact' ? 'bg-white text-black py-1 px-2 rounded' : 'bg-none text-white py-1 px-2 rounded'}`}
+        <Link 
+          to="/Contact"
+          className={`hover:underline ${currentPage === 'Contact' ? 'bg-white text-black py-1 px-2 rounded' : 'bg-none text-white py-1 px-2 rounded'}`}
         >
           Contact
-        </a>
+        </Link>
       </li>
       <li>
-        <a 
-          href="#resume"
-          onClick={() => props.handlePageChange('Resume')}
-          className={`hover:underline ${props.currentPage === 'Resume' ? 'bg-white text-black py-1 px-2 rounded' : 'bg-none text-white py-1 px-2 rounded'}`}
+        <Link 
+          to="/Resume"
+          className={`hover:underline ${currentPage === 'Resume' ? 'bg-white text-black py-1 px-2 rounded' : 'bg-none text-white py-1 px-2 rounded'}`}
         >
           Resume
-        </a>
+        </Link>
       </li>
     </ul>
   );
