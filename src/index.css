@@ -27,6 +27,15 @@
   color: rgb(129, 16, 16);
 }
 
+footer > span {
+  transition: 0.5s;
+}
+
+footer:hover > span {
+  transition: 0.5s;
+  opacity: 1;
+}
+
 @media screen and (min-width: 1024px) {
   .avatar {
     animation-name: appear;
