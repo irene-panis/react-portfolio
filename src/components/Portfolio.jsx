@@ -29,7 +29,7 @@ export default function Portfolio() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div className="wrapper flex flex-col gap-10 min-h-screen bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white font-montserrat">
+    <div className="wrapper flex flex-col gap-10 min-h-screen min-w-screen bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white font-montserrat">
       <Header currentPage={currentPage} handlePageChange={handlePageChange} />
       <main className="flex flex-grow justify-center align-center min-h-full">{renderPage()}</main>
       <Footer />

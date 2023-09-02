@@ -26,3 +26,20 @@
 .error {
   color: rgb(129, 16, 16);
 }
+
+.avatar {
+  animation-name: appear;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes appear {
+  from {
+    transform: translateY(0);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(-13rem);
+    opacity: 1;
+  }
+}

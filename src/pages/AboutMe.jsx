@@ -1,8 +1,9 @@
 /* eslint-disable react/no-unescaped-entities */
 export default function AboutMe() {
   return (
-    <section className='about flex flex-col justify-center align-center text-center mx-96 min-h-full'>
-      <h2 className="font-alata text-7xl">Hi, I'm Irene.</h2>
+    <section className='about flex flex-col justify-center align-center text-center mx-96 min-h-full relative'>
+      <img src="/avatar.png" className="avatar h-48 w-48 mx-auto absolute left-0 right-0 opacity-0"/>
+      <h2 className="greeting font-alata text-7xl">Hi, I'm Irene.</h2>
       <h3 className="font-montserrat text-2xl">
           Full-Stack Developer. Software Engineer. Gamer.
       </h3>
