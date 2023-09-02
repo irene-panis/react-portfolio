@@ -12,7 +12,7 @@ The 'About Me' page is the default landing spot and provides a short summary of 
 
 The footer contains links to my GitHub profile, LinkedIn profile, and Discord profile.
 
-Live:
+Live: [irenepanis.netlify.app](https://irenepanis.netlify.app/)
 
 ![Screenshot of portfolio landing, including avatar and short description](./public/screenshot.jpg)
 
