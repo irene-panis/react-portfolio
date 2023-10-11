@@ -72,6 +72,7 @@ export default function Contact() {
       <form id="contact-form" className="flex flex-col gap-5" action="https://api.web3forms.com/submit" method="POST">
 
         <input type="hidden" name="access_key" value="a499c407-de41-4e17-b58b-1ec11eb4a622"/>
+        <input type="hidden" name="redirect" value="https://irenepanis.netlify.app/"></input>
         <div className="flex flex-col">
           <label htmlFor="name">Name:</label>
           <input type="text" id="name" className="rounded-lg text-black pl-2" name="inputName" value={inputName} onChange={handleInputChange} onBlur={handleBlur} required />
@@ -95,6 +96,9 @@ export default function Contact() {
       <div className="flex flex-col">
         <span>Phone: 949 923 8622</span>
         <span>Email: irenempanis@gmail.com</span>
+      </div>
+      <div>
+        <p className="italic">Successful form submission will redirect you to the homepage. Don't worry!</p>
       </div>
       <script src="https://web3forms.com/client/script.js" async defer></script>
     </div>
