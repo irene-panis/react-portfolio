@@ -3,10 +3,6 @@ import { useState } from 'react';
 
 export default function Contact() {
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-  }
-
   // set states so we can keep track of input fields
   const [inputName, setInputName] = useState('');
   const [email, setEmail] = useState('');
@@ -73,7 +69,7 @@ export default function Contact() {
   return (
     <div className="contact flex flex-col gap-5 lg:w-1/3 w-5/6">
       <h2 className="text-2xl">Let's chat!</h2>
-      <form id="contact-form" className="flex flex-col gap-5" action="https://api.web3forms.com/submit" method="POST" onSubmit={handleSubmit}>
+      <form id="contact-form" className="flex flex-col gap-5" action="https://api.web3forms.com/submit" method="POST">
 
         <input type="hidden" name="access_key" value="a499c407-de41-4e17-b58b-1ec11eb4a622"/>
         <div className="flex flex-col">
