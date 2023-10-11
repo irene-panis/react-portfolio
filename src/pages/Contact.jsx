@@ -1,5 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import { useState } from 'react';
+require('dotenv').config();
+const accessKey = process.env.ACCESS_KEY;
 
 export default function Contact() {
 
@@ -73,8 +75,9 @@ export default function Contact() {
   return (
     <div className="contact flex flex-col gap-5 lg:w-1/3 w-5/6">
       <h2 className="text-2xl">Let's chat!</h2>
-      <form id="contact-form" className="flex flex-col gap-5" action="process.php" method="post" onSubmit={handleSubmit}>
+      <form id="contact-form" className="flex flex-col gap-5" action="https://api.web3forms.com/submit" method="POST" onSubmit={handleSubmit}>
 
+        <input type="hidden" name="access_key" value={accessKey}/>
         <div className="flex flex-col">
           <label htmlFor="name">Name:</label>
           <input type="text" id="name" className="rounded-lg text-black pl-2" name="inputName" value={inputName} onChange={handleInputChange} onBlur={handleBlur} required />
@@ -99,6 +102,7 @@ export default function Contact() {
         <span>Phone: 949 923 8622</span>
         <span>Email: irenempanis@gmail.com</span>
       </div>
+      <script src="https://web3forms.com/client/script.js" async defer></script>
     </div>
   );
 }
