@@ -93,10 +93,6 @@ export default function Contact() {
         
         <input type="submit" value="Submit" className="bg-white text-black w-1/5 rounded-lg font-bold hover:bg-black hover:text-white py-1"/>
       </form>
-      <div className="flex flex-col">
-        <span>Phone: 949 923 8622</span>
-        <span>Email: irenempanis@gmail.com</span>
-      </div>
       <script src="https://web3forms.com/client/script.js" async defer></script>
     </div>
   );
