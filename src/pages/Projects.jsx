@@ -3,6 +3,14 @@ import ProjectCard from '../components/Project';
 export default function Projects() {
   const projects = [
     {
+      title: 'Jobhunter',
+      description: 'Job application tracker. Full-stack application.',
+      stack: 'MongoDB, Express.js, React, Node.js, Tailwind CSS',
+      src: '/jobhunter.png',
+      repo: 'https://github.com/irene-panis/jobhunter',
+      live: 'https://jobhunterapp-345c7e7b566e.herokuapp.com/'
+    },
+    {
       title: 'Dagobah Depot',
       description: 'A Star Wars-themed community marketplace built with two other team members. Full-stack application.',
       stack: 'Sequelize ORM, Node.js, Express.js, Handlebars.js, Stripe.js',
@@ -41,14 +49,6 @@ export default function Projects() {
       src: 'codingquiz.jpg',
       repo: 'https://github.com/irene-panis/javascript-quiz',
       live: 'https://irene-panis.github.io/javascript-quiz/'
-    },
-    {
-      title: 'Portfolio',
-      description: 'An old version of my portfolio created in April 2023.',
-      stack: 'HTML, CSS',
-      src: 'preview.jpg',
-      repo: 'https://github.com/irene-panis/portfolio',
-      live: 'https://irene-panis.github.io/portfolio/'
     },
   ];
 
