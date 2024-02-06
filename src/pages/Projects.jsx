@@ -4,8 +4,8 @@ export default function Projects() {
   const projects = [
     {
       title: 'Jobhunter',
-      description: 'Job application tracker. Full-stack application.',
-      stack: 'MongoDB, Express.js, React, Node.js, Tailwind CSS',
+      description: 'Job application tracker that allows users to see their progress at a glance. Full-stack application.',
+      stack: 'React, MongoDB, Express.js, Node.js, Tailwind CSS',
       src: '/jobhunter.png',
       repo: 'https://github.com/irene-panis/jobhunter',
       live: 'https://jobhunterapp-345c7e7b566e.herokuapp.com/'
@@ -13,10 +13,18 @@ export default function Projects() {
     {
       title: 'Dagobah Depot',
       description: 'A Star Wars-themed community marketplace built with two other team members. Full-stack application.',
-      stack: 'Sequelize ORM, Node.js, Express.js, Handlebars.js, Stripe.js',
+      stack: 'Handlebars.js, MySQL, Node.js, Express.js, Stripe.js',
       src: '/dagobah.jpg',
       repo: 'https://github.com/irene-panis/dagobah-depot',
       live: 'https://dagobah-depot-34081fe1df5e.herokuapp.com/'
+    },
+    {
+      title: 'Ensemble Blog',
+      description: 'Simple blog that allows users to sign up or log in and create posts and comments. Full-stack application.',
+      stack: 'Handlebars.js, MySQL, Node.js, Express.js, Bulma CSS',
+      src: 'ensemble.png',
+      repo: 'https://github.com/irene-panis/ensemble-blog',
+      live: 'https://ensemble-blog-bfd105093377.herokuapp.com/'
     },
     {
       title: 'Pokedex',
@@ -25,14 +33,6 @@ export default function Projects() {
       src: '/pokedex.jpg',
       repo: 'https://github.com/irene-panis/pokemon-index',
       live: 'https://linuscth.github.io/pokemon-index/'
-    },
-    {
-      title: 'Ensemble Blog',
-      description: 'Simple blog that allows users to sign up or log in and create posts and comments. Full-stack application.',
-      stack: 'Bulma CSS, Node.js, Express.js, Sequelize ORM, Handlebars.js',
-      src: 'ensemble.png',
-      repo: 'https://github.com/irene-panis/ensemble-blog',
-      live: 'https://ensemble-blog-bfd105093377.herokuapp.com/'
     },
     {
       title: 'The Weather App',
