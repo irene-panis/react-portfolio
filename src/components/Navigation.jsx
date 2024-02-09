@@ -11,7 +11,7 @@ function Navigation() {
           to="/"
           className={`hover:underline ${currentPage === '/' ? 'bg-white text-black py-1 px-2 rounded' : 'bg-none text-white py-1 px-2 rounded'}`}
         >
-          About Me
+          Home
         </Link>
       </li>
       <li>
