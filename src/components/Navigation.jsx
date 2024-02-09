@@ -16,6 +16,14 @@ function Navigation() {
       </li>
       <li>
         <Link 
+          to="/About"
+          className={`hover:underline ${currentPage === '/About' ? 'bg-white text-black py-1 px-2 rounded' : 'bg-none text-white py-1 px-2 rounded'}`}
+        >
+          About
+        </Link>
+      </li>
+      <li>
+        <Link 
           to="/Projects"
           className={`hover:underline ${currentPage === '/Projects' ? 'bg-white text-black py-1 px-2 rounded' : 'bg-none text-white py-1 px-2 rounded'}`}
         >
