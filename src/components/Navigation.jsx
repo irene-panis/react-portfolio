@@ -16,32 +16,32 @@ function Navigation() {
       </li>
       <li>
         <Link 
-          to="/About"
-          className={`hover:underline ${currentPage === '/About' ? 'bg-white text-black py-1 px-2 rounded' : 'bg-none text-white py-1 px-2 rounded'}`}
+          to="/about"
+          className={`hover:underline ${currentPage === '/about' ? 'bg-white text-black py-1 px-2 rounded' : 'bg-none text-white py-1 px-2 rounded'}`}
         >
           About
         </Link>
       </li>
       <li>
         <Link 
-          to="/Projects"
-          className={`hover:underline ${currentPage === '/Projects' ? 'bg-white text-black py-1 px-2 rounded' : 'bg-none text-white py-1 px-2 rounded'}`}
+          to="/projects"
+          className={`hover:underline ${currentPage === '/projects' ? 'bg-white text-black py-1 px-2 rounded' : 'bg-none text-white py-1 px-2 rounded'}`}
         >
           Projects
         </Link>
       </li>
       <li>
         <Link 
-          to="/Contact"
-          className={`hover:underline ${currentPage === '/Contact' ? 'bg-white text-black py-1 px-2 rounded' : 'bg-none text-white py-1 px-2 rounded'}`}
+          to="/contact"
+          className={`hover:underline ${currentPage === '/contact' ? 'bg-white text-black py-1 px-2 rounded' : 'bg-none text-white py-1 px-2 rounded'}`}
         >
           Contact
         </Link>
       </li>
       <li>
         <Link 
-          to="/Resume"
-          className={`hover:underline ${currentPage === '/Resume' ? 'bg-white text-black py-1 px-2 rounded' : 'bg-none text-white py-1 px-2 rounded'}`}
+          to="/resume"
+          className={`hover:underline ${currentPage === '/resume' ? 'bg-white text-black py-1 px-2 rounded' : 'bg-none text-white py-1 px-2 rounded'}`}
         >
           Resume
         </Link>
