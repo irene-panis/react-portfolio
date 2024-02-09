@@ -12,8 +12,7 @@ export default function Resume() {
         'React.js',
         'Handlebars.js',
         'Tailwind CSS',
-        'Bulma CSS',
-        'Bootstrap CSS'
+        'Bootstrap'
       ]
     },
     {
@@ -21,11 +20,12 @@ export default function Resume() {
       items: [
         'Node.js',
         'Express.js',
-        'SQL',
-        'NoSQL',
+        'SQL / MySQL',
+        'MongoDB / NoSQL',
+        'Apollo GraphQL',
+        'JSON web tokens (JWT)',
         'Model-View-Controller (MVC)',
-        'RESTful APIs',
-        'Java'
+        'RESTful APIs'
       ]
     },
     {
@@ -37,7 +37,9 @@ export default function Resume() {
         'Object-oriented programming (OOP)',
         'Data structures & algorithms',
         'Agile development',
-        'Test-driven development (TDD)'
+        'Test-driven development (TDD)',
+        'Java',
+        'Python'
       ]
     }
   ]
