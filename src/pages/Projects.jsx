@@ -3,6 +3,14 @@ import ProjectCard from '../components/Project';
 export default function Projects() {
   const projects = [
     {
+      title: 'Think Thieves',
+      description: `Re-imagining of esports organization 100 Thieves' website that uses web scrapers and API calls to retrieve latest data about upcoming matches and current live streams.`,
+      stack: 'React, Express.js, Node.js, Puppeteer, Redis',
+      src: '/thinkthieves.jpg',
+      repo: 'https://github.com/irene-panis/think-thieves',
+      live: 'https://thinkthieves-c78e2959a576.herokuapp.com/'
+    },
+    {
       title: 'Jobhunter',
       description: 'Job application tracker that allows users to see their progress at a glance. Full-stack application.',
       stack: 'React, MongoDB, Express.js, Node.js, Tailwind CSS',
@@ -41,15 +49,7 @@ export default function Projects() {
       src: 'weatherapp.jpg',
       repo: 'https://github.com/irene-panis/weather-app',
       live: 'https://irene-panis.github.io/weather-app/'
-    },
-    {
-      title: 'JavaScript Quiz',
-      description: 'Quiz app that asks JavaScript questions and allows users to save their scores in local storage.',
-      stack: 'HTML, CSS, JavaScript',
-      src: 'codingquiz.jpg',
-      repo: 'https://github.com/irene-panis/javascript-quiz',
-      live: 'https://irene-panis.github.io/javascript-quiz/'
-    },
+    }
   ];
 
   return (
